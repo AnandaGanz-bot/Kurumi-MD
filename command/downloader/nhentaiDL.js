@@ -6,7 +6,7 @@ module.exports = {
 	category: "downloader",
 	desc: "downloader nhentai",
 	query: "enter nhentai code!",
-	isPrivate: true,
+	isPrivate: false,
 	isSpam: true,
 	async run({ msg, conn }, { args }) {
 		await NhentaiDL(msg, args, conn);
